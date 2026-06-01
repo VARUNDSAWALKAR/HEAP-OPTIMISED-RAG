@@ -1,0 +1,131 @@
+PAGE 1: INTRODUCTION
+
+Data Structures and Algorithms (DSA) form the backbone of computer science.
+They define how data is stored, accessed, modified, and processed efficiently.
+Efficient data handling directly impacts program performance, scalability,
+and reliability. This document is intended to serve as a comprehensive reading
+resource for students studying DSA, suitable for question answering practice,
+concept extraction, and academic understanding.
+
+Data structures provide a way to organize data so that operations such as
+searching, insertion, deletion, and traversal can be performed efficiently.
+Algorithms, on the other hand, are step-by-step procedures used to solve
+computational problems.
+
+PAGE 2: CLASSIFICATION OF DATA STRUCTURES
+Data structures are broadly classified into:
+1. Primitive data structures
+2. Non-primitive data structures
+
+Primitive data structures include integers, characters, floats, and pointers.
+Non-primitive data structures are further divided into:
+- Linear data structures (arrays, linked lists, stacks, queues)
+- Non-linear data structures (trees, graphs)
+
+Linear data structures store elements sequentially, while non-linear data
+structures store elements hierarchically or graph-like.
+
+PAGE 3: ARRAYS
+
+An array is a collection of elements of the same data type stored in
+contiguous memory locations. Arrays allow random access using index values.
+The major drawback of arrays is their fixed size and inefficient insertion
+and deletion operations.
+
+Types of arrays include one-dimensional arrays, two-dimensional arrays,
+and multidimensional arrays. Arrays are widely used in matrix operations,
+image processing, and lookup tables.
+
+PAGE 4: LINKED LISTS
+
+A linked list is a dynamic data structure where elements are stored in nodes.
+Each node contains data and a reference (pointer) to the next node.
+Unlike arrays, linked lists do not require contiguous memory allocation.
+
+Types of linked lists:
+1. Singly linked list
+2. Doubly linked list
+3. Circular linked list
+
+Linked lists are efficient for insertion and deletion but inefficient for
+random access.
+
+PAGE 5: STACKS
+
+A stack is a linear data structure that follows the LIFO (Last In First Out)
+principle. Operations include push, pop, and peek.
+Stacks are commonly used in expression evaluation, function calls, recursion,
+and undo/redo operations.
+
+Stacks can be implemented using arrays or linked lists.
+Overflow and underflow are common stack-related errors.
+
+PAGE 6: QUEUES
+
+A queue follows the FIFO (First In First Out) principle.
+Basic operations include enqueue and dequeue.
+Types of queues include:
+- Simple queue
+- Circular queue
+- Priority queue
+- Double-ended queue (deque)
+
+Queues are widely used in scheduling, buffering, and breadth-first search.
+
+PAGE 7: TREES
+
+A tree is a hierarchical non-linear data structure consisting of nodes
+connected by edges. The topmost node is called the root.
+Common tree terminologies include parent, child, sibling, leaf, and height.
+
+Types of trees:
+- Binary tree
+- Binary search tree
+- AVL tree
+- Heap
+
+Trees are used in file systems, databases, and indexing.
+
+PAGE 8: HEAPS AND PRIORITY QUEUES
+
+A heap is a complete binary tree that satisfies the heap property.
+In a max-heap, the parent node is greater than its children.
+In a min-heap, the parent node is smaller than its children.
+
+Heaps are used to implement priority queues efficiently.
+Applications include scheduling, Dijkstra’s algorithm, and top-k retrieval.
+
+PAGE 9: GRAPHS
+
+A graph consists of vertices and edges.
+Graphs can be directed or undirected, weighted or unweighted.
+Graph representations include adjacency matrix and adjacency list.
+
+Common graph traversal algorithms:
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
+
+Graphs are used in networking, social media analysis, and route planning.
+
+PAGE 10: ALGORITHM ANALYSIS
+
+Algorithm analysis evaluates time and space complexity.
+Big-O notation is used to express upper bounds of complexity.
+Common complexities:
+O(1), O(log n), O(n), O(n log n), O(n^2)
+
+Efficient algorithms reduce resource consumption and improve performance.
+
+PAGE 11: SEARCHING AND SORTING
+Searching algorithms include linear search and binary search.
+Sorting algorithms include bubble sort, selection sort, insertion sort,
+merge sort, quick sort, and heap sort.
+
+Each algorithm has different time and space trade-offs.
+
+PAGE 12: CONCLUSION
+
+A strong understanding of data structures and algorithms is essential for
+software development, competitive programming, system design, and AI systems.
+This document can be used as a base text for asking conceptual, analytical,
+and implementation-based questions.
